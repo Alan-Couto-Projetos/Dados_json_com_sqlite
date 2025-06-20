@@ -22,7 +22,8 @@ Exemplo de dado armazenado (coluna `data_raw`):
   "user_id": 12345,
   "session_id": "abcde-12345",
   "event_type": "product_view",
-  "product": {
+  "product": {![consulta 1](https://github.com/user-attachments/assets/1de440c2-c6bf-41c3-9d5d-3887b2cf1403)
+
     "id": 9876,
     "name": "Smartphone XYZ",
     "category": "Electronics",
