@@ -16,7 +16,7 @@ Demonstrar como é possível manipular dados em formato JSON diretamente no SQLi
 Exemplo de dado armazenado (coluna `data_raw`):
 
 
-```json
+<pre> <code>```json
 {
   "event_time": "2025-06-03T10:15:00Z",
   "user_id": 12345,
@@ -36,7 +36,7 @@ Exemplo de dado armazenado (coluna `data_raw`):
     "country": "Brazil",
     "city": "São Paulo"
   }
-}```markdown
+}```</code> </pre>
 
 ---
 
