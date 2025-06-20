@@ -124,23 +124,23 @@ Execute cada bloco com Shift + Enter
 
 ### Segunda consulta:
 
-('abcde-12345', 'product_view', 'Smartphone XYZ', 'Electronics', 'Brazil')
+<pre> <code>```('abcde-12345', 'product_view', 'Smartphone XYZ', 'Electronics', 'Brazil')```</code> </pre>
 
 ### Terceira consulta:
 
-[('{"user_id": 12345, "session_id": "abcde-12345", "event_type": "cart_view", "products": [{"id": 9876, "name": "Smartphone XYZ", "category": "Electronics"}, {"id": 1234, "name": "Notebook ABC", "category": "Computers"}]}',)]
+<pre> <code>```[('{"user_id": 12345, "session_id": "abcde-12345", "event_type": "cart_view", "products": [{"id": 9876, "name": "Smartphone XYZ", "category": "Electronics"}, {"id": 1234, "name": "Notebook ABC", "category": "Computers"}]}',)]```</code> </pre>
 
 ### Quarta consulta:
 
-[('abcde-12345', 9876, 'Smartphone XYZ', 'Electronics'), ('abcde-12345', 1234, 'Notebook ABC', 'Computers')]
+<pre> <code>```[('abcde-12345', 9876, 'Smartphone XYZ', 'Electronics'), ('abcde-12345', 1234, 'Notebook ABC', 'Computers')]```</code> </pre>
 
 ### Quinta consulta:
 
-[('2025-06-03T10:15:00Z', 12345, 'abcde-12345', 'product_view', 9876, 'Smartphone XYZ', 'Electronics', 1999.99, 'mobile', 'Brazil', 'São Paulo'), ('2025-06-03T10:15:00Z', 12345, 'abcde-12345', 'cart_view', 9876, 'Smartphone XYZ', 'Electronics', None, None, 'Brazil', 'São Paulo'), ('2025-06-03T10:15:00Z', 12345, 'abcde-12345', 'cart_view', 1234, 'Notebook ABC', 'Computers', None, None, 'Brazil', 'São Paulo')]
+<pre> <code>```[('2025-06-03T10:15:00Z', 12345, 'abcde-12345', 'product_view', 9876, 'Smartphone XYZ', 'Electronics', 1999.99, 'mobile', 'Brazil', 'São Paulo'), ('2025-06-03T10:15:00Z', 12345, 'abcde-12345', 'cart_view', 9876, 'Smartphone XYZ', 'Electronics', None, None, 'Brazil', 'São Paulo'), ('2025-06-03T10:15:00Z', 12345, 'abcde-12345', 'cart_view', 1234, 'Notebook ABC', 'Computers', None, None, 'Brazil', 'São Paulo')]```</code> </pre>
 
 ### Sexta consulta:
 
-[('{"user_id":12345,"session_id":"abcde-12345","product":{"id":9876,"name":"Smartphone XYZ"},"event_type":"product_view"}',), ('{"user_id":12345,"session_id":"abcde-12345","product":{"id":9876,"name":"Smartphone XYZ"},"event_type":"cart_view"}',), ('{"user_id":12345,"session_id":"abcde-12345","product":{"id":1234,"name":"Notebook ABC"},"event_type":"cart_view"}',)]
+<pre> <code>```[('{"user_id":12345,"session_id":"abcde-12345","product":{"id":9876,"name":"Smartphone XYZ"},"event_type":"product_view"}',), ('{"user_id":12345,"session_id":"abcde-12345","product":{"id":9876,"name":"Smartphone XYZ"},"event_type":"cart_view"}',), ('{"user_id":12345,"session_id":"abcde-12345","product":{"id":1234,"name":"Notebook ABC"},"event_type":"cart_view"}',)]```</code> </pre>
 
 ---
 
