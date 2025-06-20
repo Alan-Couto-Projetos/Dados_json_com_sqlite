@@ -120,7 +120,7 @@ Execute cada bloco com Shift + Enter
 
 ### Primeira consulta:
 
-(1, '{"event_time": "2025-06-03T10:15:00Z", "user_id": 12345, "session_id": "abcde-12345", "event_type": "product_view", "product": {"id": 9876, "name": "Smartphone XYZ", "category": "Electronics", "price": 1999.99}, "device": {"type": "mobile", "os": "Android"}, "location": {"country": "Brazil", "city": "São Paulo"}}')
+<pre> <code>```(1, '{"event_time": "2025-06-03T10:15:00Z", "user_id": 12345, "session_id": "abcde-12345", "event_type": "product_view", "product": {"id": 9876, "name": "Smartphone XYZ", "category": "Electronics", "price": 1999.99}, "device": {"type": "mobile", "os": "Android"}, "location": {"country": "Brazil", "city": "São Paulo"}}')```</code> </pre>
 
 ### Segunda consulta:
 
